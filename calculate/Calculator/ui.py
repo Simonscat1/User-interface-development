@@ -6,7 +6,7 @@ class CalculatorUi:
         self.root = root
         self.tk = tk
         self.root.title("Calculator")
-        self.root.geometry("443x405")
+        self.root.geometry("450x300")
         self.root.resizable(0, 0)
         self.root.configure(background="#f3f3f3")
         self.calcLog = CalculatorLog(self)
